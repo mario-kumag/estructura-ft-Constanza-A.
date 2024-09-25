@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tarea 1 de estructura de datos: Archivo de código fuente C:/Users/mario/OneDrive/Escritorio/git/git.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Tarea 1 de estructura de datos<span id="projectnumber">&#160;1</span>
+   </div>
+   <div id="projectbrief">ugit</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.12.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_9bec7083027963d9f9ceae2cc7474de5.html">git</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">git.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="git_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef GIT_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define GIT_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="git_8h.html#a2e7620041ccf5bc13755c9f28524d22e">    4</a></span><span class="preprocessor">#define MAX_ARG 50</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="git_8h.html#a1f729a30b4cbe12230cfd86ba7e5d4ef">    5</a></span><span class="preprocessor">#define MAX_COMANDO 100</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structnodo.html">   23</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structnodo.html">nodo</a> {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structnodo.html#a69def0d48b76f877dcee2eaf979a2c95">   24</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structnodo.html#a69def0d48b76f877dcee2eaf979a2c95">filename</a>[<a class="code hl_define" href="git_8h.html#a2e7620041ccf5bc13755c9f28524d22e">MAX_ARG</a>];  </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structnodo.html#ae08bdde5fa397f122c274e0a9592f904">   25</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structnodo.html">nodo</a> *<a class="code hl_variable" href="structnodo.html#ae08bdde5fa397f122c274e0a9592f904">next</a>;       </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="git_8h.html#a93778e963712308112f6222068a54474">   26</a></span>} <a class="code hl_typedef" href="git_8h.html#a93778e963712308112f6222068a54474">nodo</a>;</div>
+</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="struct_commit_node.html">   32</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_commit_node.html">CommitNode</a> {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="struct_commit_node.html#abe15e20cf5244eeb81242b7622a97555">   33</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="struct_commit_node.html#abe15e20cf5244eeb81242b7622a97555">mensaje</a>[<a class="code hl_define" href="git_8h.html#a2e7620041ccf5bc13755c9f28524d22e">MAX_ARG</a>];   </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="struct_commit_node.html#a7441ef0865bcb3db9b8064dd7375c1ea">   34</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_commit_node.html#a7441ef0865bcb3db9b8064dd7375c1ea">id</a>;                  </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="struct_commit_node.html#a0be71b8daf575ed0c8ad8fee5854d751">   35</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_commit_node.html">CommitNode</a> *<a class="code hl_variable" href="struct_commit_node.html#a0be71b8daf575ed0c8ad8fee5854d751">next</a>; </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="git_8h.html#a141d50477b083e11ebedaaf7691cf579">   36</a></span>} <a class="code hl_typedef" href="git_8h.html#a141d50477b083e11ebedaaf7691cf579">CommitNode</a>;</div>
+</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">static</span> <a class="code hl_struct" href="struct_commit_node.html">CommitNode</a> *commit_list = NULL; </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#abbf46f12647698fc7acff7e4689af68a">init_repo</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#a47b8a14055b59f10c0841e35d561f875">add_file</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *filename);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#a35156d3d3d88aa7465d0d7d52995d3e3">commit</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_variable" href="struct_commit_node.html#abe15e20cf5244eeb81242b7622a97555">mensaje</a>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#a7673a671a76e570eb3a54c0b33074255">log_commits</a>();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#a175db6aebb6a25493bb31cc3e2833456">checkout_commit</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *commit_id);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#a20574b3d9d1efa01f1421c287ac917af">list_files</a>();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keywordtype">int</span> <a class="code hl_function" href="git_8h.html#a84d071142e674aa05d110f5390b01b6d">remove_file</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *filename);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keywordtype">void</span> <a class="code hl_function" href="git_8h.html#a175c86f6344de24bf92052a3f57d9547">ayuda</a>();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">#endif </span><span class="comment">// GIT_H</span></div>
+<div class="ttc" id="agit_8h_html_a141d50477b083e11ebedaaf7691cf579"><div class="ttname"><a href="git_8h.html#a141d50477b083e11ebedaaf7691cf579">CommitNode</a></div><div class="ttdeci">struct CommitNode CommitNode</div></div>
+<div class="ttc" id="agit_8h_html_a175c86f6344de24bf92052a3f57d9547"><div class="ttname"><a href="git_8h.html#a175c86f6344de24bf92052a3f57d9547">ayuda</a></div><div class="ttdeci">void ayuda()</div><div class="ttdoc">Muestra la ayuda de los comandos disponibles.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00064">git.c:64</a></div></div>
+<div class="ttc" id="agit_8h_html_a175db6aebb6a25493bb31cc3e2833456"><div class="ttname"><a href="git_8h.html#a175db6aebb6a25493bb31cc3e2833456">checkout_commit</a></div><div class="ttdeci">int checkout_commit(const char *commit_id)</div><div class="ttdoc">Cambia a un commit especifico.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00214">git.c:214</a></div></div>
+<div class="ttc" id="agit_8h_html_a20574b3d9d1efa01f1421c287ac917af"><div class="ttname"><a href="git_8h.html#a20574b3d9d1efa01f1421c287ac917af">list_files</a></div><div class="ttdeci">int list_files()</div><div class="ttdoc">Lista los archivos en el area de preparacion.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00249">git.c:249</a></div></div>
+<div class="ttc" id="agit_8h_html_a2e7620041ccf5bc13755c9f28524d22e"><div class="ttname"><a href="git_8h.html#a2e7620041ccf5bc13755c9f28524d22e">MAX_ARG</a></div><div class="ttdeci">#define MAX_ARG</div><div class="ttdef"><b>Definition</b> <a href="#l00004">git.h:4</a></div></div>
+<div class="ttc" id="agit_8h_html_a35156d3d3d88aa7465d0d7d52995d3e3"><div class="ttname"><a href="git_8h.html#a35156d3d3d88aa7465d0d7d52995d3e3">commit</a></div><div class="ttdeci">int commit(const char *mensaje)</div><div class="ttdoc">Crea un nuevo commit con los archivos en el area de preparacion.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00155">git.c:155</a></div></div>
+<div class="ttc" id="agit_8h_html_a47b8a14055b59f10c0841e35d561f875"><div class="ttname"><a href="git_8h.html#a47b8a14055b59f10c0841e35d561f875">add_file</a></div><div class="ttdeci">int add_file(const char *filename)</div><div class="ttdoc">Agrega un archivo al area de preparacion.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00084">git.c:84</a></div></div>
+<div class="ttc" id="agit_8h_html_a7673a671a76e570eb3a54c0b33074255"><div class="ttname"><a href="git_8h.html#a7673a671a76e570eb3a54c0b33074255">log_commits</a></div><div class="ttdeci">int log_commits()</div><div class="ttdoc">Muestra el historial de commits.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00188">git.c:188</a></div></div>
+<div class="ttc" id="agit_8h_html_a84d071142e674aa05d110f5390b01b6d"><div class="ttname"><a href="git_8h.html#a84d071142e674aa05d110f5390b01b6d">remove_file</a></div><div class="ttdeci">int remove_file(const char *filename)</div><div class="ttdoc">Elimina un archivo del area de preparacion.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00111">git.c:111</a></div></div>
+<div class="ttc" id="agit_8h_html_a93778e963712308112f6222068a54474"><div class="ttname"><a href="git_8h.html#a93778e963712308112f6222068a54474">nodo</a></div><div class="ttdeci">struct nodo nodo</div></div>
+<div class="ttc" id="agit_8h_html_abbf46f12647698fc7acff7e4689af68a"><div class="ttname"><a href="git_8h.html#abbf46f12647698fc7acff7e4689af68a">init_repo</a></div><div class="ttdeci">int init_repo()</div><div class="ttdoc">Inicializa el repositorio.</div><div class="ttdef"><b>Definition</b> <a href="git_8c_source.html#l00033">git.c:33</a></div></div>
+<div class="ttc" id="astruct_commit_node_html"><div class="ttname"><a href="struct_commit_node.html">CommitNode</a></div><div class="ttdoc">Estructura para representar un commit en el sistema.</div><div class="ttdef"><b>Definition</b> <a href="#l00032">git.h:32</a></div></div>
+<div class="ttc" id="astruct_commit_node_html_a0be71b8daf575ed0c8ad8fee5854d751"><div class="ttname"><a href="struct_commit_node.html#a0be71b8daf575ed0c8ad8fee5854d751">CommitNode::next</a></div><div class="ttdeci">struct CommitNode * next</div><div class="ttdoc">Puntero al siguiente commit.</div><div class="ttdef"><b>Definition</b> <a href="#l00035">git.h:35</a></div></div>
+<div class="ttc" id="astruct_commit_node_html_a7441ef0865bcb3db9b8064dd7375c1ea"><div class="ttname"><a href="struct_commit_node.html#a7441ef0865bcb3db9b8064dd7375c1ea">CommitNode::id</a></div><div class="ttdeci">int id</div><div class="ttdoc">ID unico del commit.</div><div class="ttdef"><b>Definition</b> <a href="#l00034">git.h:34</a></div></div>
+<div class="ttc" id="astruct_commit_node_html_abe15e20cf5244eeb81242b7622a97555"><div class="ttname"><a href="struct_commit_node.html#abe15e20cf5244eeb81242b7622a97555">CommitNode::mensaje</a></div><div class="ttdeci">char mensaje[MAX_ARG]</div><div class="ttdoc">Mensaje del commit.</div><div class="ttdef"><b>Definition</b> <a href="#l00033">git.h:33</a></div></div>
+<div class="ttc" id="astructnodo_html"><div class="ttname"><a href="structnodo.html">nodo</a></div><div class="ttdoc">Estructura para representar un archivo en el area de preparacion.</div><div class="ttdef"><b>Definition</b> <a href="#l00023">git.h:23</a></div></div>
+<div class="ttc" id="astructnodo_html_a69def0d48b76f877dcee2eaf979a2c95"><div class="ttname"><a href="structnodo.html#a69def0d48b76f877dcee2eaf979a2c95">nodo::filename</a></div><div class="ttdeci">char filename[MAX_ARG]</div><div class="ttdoc">Nombre del archivo.</div><div class="ttdef"><b>Definition</b> <a href="#l00024">git.h:24</a></div></div>
+<div class="ttc" id="astructnodo_html_ae08bdde5fa397f122c274e0a9592f904"><div class="ttname"><a href="structnodo.html#ae08bdde5fa397f122c274e0a9592f904">nodo::next</a></div><div class="ttdeci">struct nodo * next</div><div class="ttdoc">Puntero al siguiente archivo.</div><div class="ttdef"><b>Definition</b> <a href="#l00025">git.h:25</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
